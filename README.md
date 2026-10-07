@@ -17,6 +17,8 @@ Ask Claude in Norwegian or English, for example:
 
 Claude finds the kind of job, then opens Blikst's request form filled in with the job and the place. You type your own name, phone number and e-mail in the form, agree to Blikst's privacy policy and send it. Nothing is sent before you send the form. Where Claude cannot show the form, as in Claude Code, Claude asks for the same details in the chat, shows you what will be sent and asks for your agreement first.
 
+![Blikst's quote form in Claude, filled in with an EV charger job in Oslo](./assets/quote-form.png)
+
 If you would rather see who is there, ask which companies Blikst lists for the job and the place. Blikst shows them as cards with their services, areas, organisation number and website, and you can ask one of them for a quote.
 
 ## What the plugin contains

@@ -1,7 +1,7 @@
 {
   "name": "blikst",
   "displayName": "Blikst",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get quotes from tradespeople and local services in Norway. Describe the job and where it is, and Blikst sends your request to up to three companies that suit it. They contact you with their quotes.",
   "author": {
     "name": "Blikst",
