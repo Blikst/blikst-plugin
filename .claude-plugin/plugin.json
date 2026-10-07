@@ -1,0 +1,31 @@
+{
+  "name": "blikst",
+  "displayName": "Blikst",
+  "version": "1.0.0",
+  "description": "Get quotes from tradespeople and local services in Norway. Describe the job and where it is, and Blikst sends your request to up to three companies that suit it. They contact you with their quotes.",
+  "author": {
+    "name": "Blikst",
+    "email": "support@blikst.no",
+    "url": "https://blikst.no"
+  },
+  "homepage": "https://blikst.no",
+  "repository": "https://github.com/Blikst/blikst-plugin",
+  "license": "MIT",
+  "keywords": [
+    "norway",
+    "local services",
+    "tradespeople",
+    "quotes",
+    "electrician",
+    "plumber",
+    "carpenter",
+    "painter",
+    "cleaning",
+    "cabin"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/Blikst/blikst-plugin#readme",
+  "supportUrl": "https://blikst.no/#hjelp",
+  "privacyPolicyUrl": "https://blikst.no/personvern",
+  "termsOfServiceUrl": "https://blikst.no/vilkar"
+}
