@@ -2,7 +2,7 @@
 
 ![Blikst](./assets/icon.png)
 
-Get quotes from tradespeople and local services in Norway, right in the conversation with Claude. Describe the job and where it is, and [Blikst](https://blikst.no) sends your request to up to three companies that suit the job and the place. They contact you with their quotes, and you decide whether to accept one. You do not have to compare or choose companies yourself.
+Get quotes from tradespeople and local services in Norway, right in the conversation with Claude. Describe the job and where it is, and [Blikst](https://blikst.no) sends your request to up to three companies that offer the service in that place. They contact you with their quotes, and you decide whether to accept one. You do not have to compare or choose companies yourself.
 
 Blikst covers about 90 kinds of work for homes, cabins and businesses: electricians, plumbers, carpenters, painters, roofers, tilers, bathroom and kitchen renovation, heat pumps and solar panels, gardeners, tree felling and snow clearing, cabin care, cleaning, moving, locksmiths, pest control and property surveyors, and business services such as accountants, lawyers, IT and marketing. It covers jobs in Norway only.
 
@@ -15,11 +15,11 @@ Ask Claude in Norwegian or English, for example:
 - "Which companies can stain a cabin in Hemsedal?"
 - "Has anyone received my request yet?"
 
-Claude finds the kind of job, then opens Blikst's request form filled in with the job and the place. You type your own name, phone number and e-mail in the form, agree to Blikst's privacy policy and send it. Nothing is sent before you send the form. Where Claude cannot show the form, as in Claude Code, Claude asks for the same details in the chat, shows you what will be sent and asks for your agreement first.
+Claude finds the kind of job, then opens Blikst's request form filled in with the job and the place. You type your own name, phone number and e-mail in the form, agree to Blikst's privacy policy and send it. Nothing is sent before you send the form, and requests are only sent from the form: Claude never sends your contact details for you. Where Claude cannot show the form, as in Claude Code, you cannot send a request.
 
 ![Blikst's quote form in Claude, filled in with an EV charger job in Oslo](./assets/quote-form.png)
 
-If you would rather see who is there, ask which companies Blikst lists for the job and the place. Blikst shows them as cards with their services, areas, organisation number and website, and you can ask one of them for a quote.
+If you would rather see who is there, ask which companies Blikst lists for the job and the place. Blikst shows them as cards with their services, areas, organisation number and website, and you can ask one of them for a quote. The list is not every company in the area, and it is not ranked by quality.
 
 ## What the plugin contains
 
@@ -36,7 +36,7 @@ The plugin runs no code on your computer, installs no packages and sets no hooks
 | `find_service_providers` | read | Shows up to eight companies Blikst lists for the job and the place, as cards. |
 | `get_service_provider` | read | Tells about one of those companies: services, areas, description, organisation number and website. |
 | `request_service` | read | Opens the request form, filled in with the job and the place. It sends nothing. |
-| `send_quote_request` | write | Sends your request to Blikst, which passes it to up to three companies. |
+| `send_quote_request` | write | Called only by the request form when you send it. Claude cannot call it. |
 | `get_request_status` | read | Tells whether your request has been sent and which companies have it. |
 
 ## Data
